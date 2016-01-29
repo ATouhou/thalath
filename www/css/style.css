@@ -1,4 +1,9 @@
 /* Empty. Add your own CSS if you like */
+
+ion-view {
+  direction: rtl;
+}
+
 .play-button {
   font-size: 30px;
   height: 100px;

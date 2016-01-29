@@ -27,11 +27,13 @@ angular.module('thalathah', ['ionic','ngIOS9UIWebViewPatch','angular-svg-round-p
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'templates/home.html'
+    templateUrl: 'templates/home.html',
+    controller: 'HomeController'
   })
   .state('play', {
     url: '/play',
-    templateUrl: 'templates/play.html'
+    templateUrl: 'templates/play.html',
+    controller: 'PlayController'
   });
 
   // default route
